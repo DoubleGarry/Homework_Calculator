@@ -5,7 +5,7 @@ public interface CalcService {
 
     int addition(Integer num1, Integer num2);
 
-    int subtration(Integer num1, Integer num2);
+    int subtraction(Integer num1, Integer num2);
 
     int multiplication(Integer num1, Integer num2);
 

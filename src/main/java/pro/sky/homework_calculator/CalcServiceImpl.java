@@ -11,7 +11,7 @@ public class CalcServiceImpl implements CalcService {
     public int addition( Integer num1,  Integer num2) {
         return  num1 + num2;
     }
-    public int subtration(Integer num1, Integer num2) {
+    public int subtraction(Integer num1, Integer num2) {
         return num1 - num2;
     }
     public int multiplication(Integer num1, Integer num2) {

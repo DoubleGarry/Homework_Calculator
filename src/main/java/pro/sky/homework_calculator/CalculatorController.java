@@ -25,8 +25,8 @@ public class CalculatorController {
     }
 
     @GetMapping(path = "/minus")
-    public String sudtration(@RequestParam("num1") Integer num1, @RequestParam("num2") Integer num2) {
-        return num1 + "-" + num2 + "=" + calcService.subtration(num1, num2);
+    public String subtraction(@RequestParam("num1") Integer num1, @RequestParam("num2") Integer num2) {
+        return num1 + "-" + num2 + "=" + calcService.subtraction(num1, num2);
     }
 
     @GetMapping(path = "/multiply")
