@@ -21,10 +21,6 @@ public class CalcServiceImpl implements CalcService {
     }
 
     public int division(Integer num1, Integer num2) {
-        if (num1 == 0 || num2 == 0) {
-            return Integer.parseInt("На ноль делить нельзя");
-        } else {
             return (num1 / num2);
-        }
     }
 }
